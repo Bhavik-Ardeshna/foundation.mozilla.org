@@ -4,6 +4,7 @@
 #
 #    pip-compile
 #
+anyascii==0.1.7           # via wagtail
 beautifulsoup4==4.8.2     # via -r requirements.in, wagtail
 boto3==1.16.32            # via -r requirements.in
 botocore==1.19.32         # via boto3, s3transfer
@@ -19,7 +20,7 @@ django-cors-headers==3.5.0  # via -r requirements.in
 django-csp==3.7           # via -r requirements.in
 django-environ==0.4.5     # via -r requirements.in
 django-filter==2.4.0      # via -r requirements.in, wagtail
-django-modelcluster==5.0.2  # via wagtail
+django-modelcluster==5.1  # via wagtail
 django-modeltranslation==0.15  # via wagtail-modeltranslation
 django-redis==4.12.1      # via -r requirements.in
 django-storages==1.10.1   # via -r requirements.in
@@ -70,7 +71,7 @@ wagtail-footnotes==0.4.1  # via -r requirements.in
 wagtail-inventory==1.2    # via -r requirements.in
 wagtail-metadata==3.3.0   # via -r requirements.in
 wagtail-modeltranslation==0.10.15  # via -r requirements.in
-wagtail==2.10.2           # via -r requirements.in, wagtail-factories, wagtail-footnotes, wagtail-inventory, wagtail-metadata, wagtail-modeltranslation
+wagtail==2.11.3           # via -r requirements.in, wagtail-factories, wagtail-footnotes, wagtail-inventory, wagtail-metadata, wagtail-modeltranslation
 webencodings==0.5.1       # via html5lib
 whitenoise==5.2.0         # via -r requirements.in
 willow==1.4               # via wagtail
